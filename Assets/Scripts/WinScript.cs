@@ -16,7 +16,7 @@ public class WinScript : MonoBehaviour {
         if (playerTotal1 > playerTotal2)
         {
             win.text = "Player 1 Wins!" +
-                "With a total of " + playerTotal1 + "goals!";
+                "\nWith a total of " + playerTotal1 + "goals!";
           
         }
         else
