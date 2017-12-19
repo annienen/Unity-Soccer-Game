@@ -30,12 +30,12 @@ public class ScoreScript3 : MonoBehaviour {
 
         score.text = score2 + "x" + score1;
 
-        if (score1 == 3)
+        if (score1 == 5)
         {
             score.text = "Player 1 Wins This Match";
             levelManager.LoadNewScene("Win");
         }
-        else if (score2 == 3)
+        else if (score2 == 5)
         {
             score.text = "Player 2 Wins This Match";
             levelManager.LoadNewScene("Win");
